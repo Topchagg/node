@@ -4,7 +4,7 @@ const verify = require('../middleware/authMiddelware')
 const { default: mongoose } = require('mongoose')
 
 
-const router = express.router()
+const router = express.Router()
 
 router.get('/',async (req,res) => {
     try{
